@@ -1,0 +1,90 @@
+/* Container and layout styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e0039, #5e008f);
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #220047;
+    border-radius: 15px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    color: #ddd;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+  }
+  /* Drag and Drop Upload Section Styling */
+.file-upload-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed #ff7f50;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 127, 80, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-upload-area:hover {
+    background-color: rgba(255, 127, 80, 0.15);
+  }
+  
+  .file-upload-text {
+    color: #ddd;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  input[type="text"], input[type="email"], input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #ff7f50;
+    color: #220047;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #e47046;
+  }
+  
+  .ticket {
+    background: #2a014f;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
